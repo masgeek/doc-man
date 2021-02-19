@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  openkm:
+    image: openkm/openkm-ce:6.3.9
+    ports:
+      - 8080:8080   
